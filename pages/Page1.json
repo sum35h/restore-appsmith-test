@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1072,
+          "rightColumn": 816,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -48,13 +48,81 @@
               "leftColumn": 8,
               "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf",
               "key": "flzol3cf5o"
+            },
+            {
+              "widgetName": "MapChart1",
+              "data": [
+                {
+                  "id": "NA",
+                  "value": ".82"
+                },
+                {
+                  "id": "SA",
+                  "value": "2.04"
+                },
+                {
+                  "id": "AS",
+                  "value": "1.78"
+                },
+                {
+                  "id": "EU",
+                  "value": ".40"
+                },
+                {
+                  "id": "AF",
+                  "value": "2.58"
+                },
+                {
+                  "id": "AU",
+                  "value": "1.30"
+                }
+              ],
+              "colorRange": [
+                {
+                  "minValue": 0.5,
+                  "maxValue": 1,
+                  "code": "#FFD74D"
+                },
+                {
+                  "minValue": 1,
+                  "maxValue": 2,
+                  "code": "#FB8C00"
+                },
+                {
+                  "minValue": 2,
+                  "maxValue": 3,
+                  "code": "#E65100"
+                }
+              ],
+              "isCanvas": false,
+              "displayName": "Map Chart",
+              "iconSVG": "/static/media/icon.16600780.svg",
+              "topRow": 17,
+              "bottomRow": 49,
+              "parentRowSpace": 10,
+              "type": "MAP_CHART_WIDGET",
+              "hideCard": false,
+              "mapTitle": "Global Population",
+              "parentColumnSpace": 12.5625,
+              "leftColumn": 34,
+              "key": "l3vabcg8su",
+              "rightColumn": 58,
+              "widgetId": "ngqbt0fq9i",
+              "mapType": "WORLD",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "showLabels": true
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
           "DocumentViewer1",
-          "MainContainer"
+          "MainContainer",
+          "MapChart1"
         ],
         "validOnPageLoadActions": true,
         "id": "Page1",
